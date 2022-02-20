@@ -1,0 +1,157 @@
+/***** BASE STYLES *****/
+
+body {
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.mid-section,
+.bottom-section {
+	margin: 0 auto;
+	clear: both;
+}
+
+/***** HEADER *****/
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    float: left;
+	margin: 0;
+	padding: 38px 0;
+}
+
+header h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right;
+    padding: 46px, 0;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline;
+    margin-top: 15px;
+}
+
+nav ul li a {
+    color: #77a466;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    margin-right: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    
+}
+
+.bean-image img {
+    border-top: #77a466 solid 3px;
+    border-bottom: #77a466 solid 3px;
+    float: left;
+    height: auto;
+}
+
+/***** MID-SECTION (ABOUT) *****/
+
+.about {
+    height: auto;
+    float: left;
+}
+
+.about h2 {
+    color:#77a466;
+    font-size: 18px;
+    padding: 5px 0;
+    text-transform: uppercase;
+}
+
+.about p {
+    font-size: 16px;
+    padding: 0;
+    line-height: 21px;
+}
+
+/***** BOTTOM-SECTION *****/
+
+.specials,
+.reviews,
+.contact {
+    width: 399px;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.specials h3 {
+	padding: 10px 0;
+}
+
+.reviews {
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.reviews h3,
+.contact h3 {
+    padding: 10px 30px;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+    
+}
+
+.menu li {
+    padding: 10px 0;
+	color:#77a466;
+}
+
+.quote {
+	color: #333;
+	font-size: 16px;
+    line-height: 21px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+.address {
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 30px;
+  
+}
+
+footer {
+	height: 50px;
+	border-top: 3px solid #eee;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+	margin: 0 auto;
+	clear: both;
+	text-align: center;
+    text-transform: uppercase;
+    
+}
+
+footer span {
+	font-family: 'Galada', cursive;
+    font-weight: normal;
+	text-transform: lowercase;
+	color: #77a466;
+	font-size: 14px;
+}
+
